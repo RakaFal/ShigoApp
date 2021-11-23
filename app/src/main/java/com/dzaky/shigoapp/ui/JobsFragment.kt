@@ -1,4 +1,4 @@
-package com.dzaky.shigoapp.ui.dashboard
+package com.dzaky.shigoapp.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +8,10 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.dzaky.shigoapp.R
 import com.dzaky.shigoapp.databinding.FragmentDashboardBinding
+import com.dzaky.shigoapp.ui.dashboard.DashboardViewModel
 
-class DashboardFragment : Fragment() {
+class JobsFragment : Fragment() {
 
     private lateinit var dashboardViewModel: DashboardViewModel
     private var _binding: FragmentDashboardBinding? = null
