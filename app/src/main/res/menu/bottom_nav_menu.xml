@@ -9,11 +9,16 @@
     <item
         android:id="@+id/navigation_jobs"
         android:icon="@drawable/ic_jobs"
-        android:title="@string/title_dashboard" />
+        android:title="@string/title_jobs" />
 
     <item
         android:id="@+id/navigation_network"
         android:icon="@drawable/ic_network"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_network" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile"/>
 
 </menu>
