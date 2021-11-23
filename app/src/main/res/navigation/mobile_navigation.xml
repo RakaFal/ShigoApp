@@ -15,11 +15,16 @@
         android:id="@+id/navigation_jobs"
         android:name="com.dzaky.shigoapp.ui.JobsFragment"
         android:label="@string/title_jobs"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_jobs" />
 
     <fragment
-        android:id="@+id/navigation_network"
-        android:name="com.dzaky.shigoapp.ui.NotificationsFragment"
-        android:label="@string/title_network"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_contact"
+        android:name="com.dzaky.shigoapp.ui.ContactFragment"
+        android:label="@string/title_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.dzaky.shigoapp.ui.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

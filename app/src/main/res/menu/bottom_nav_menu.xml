@@ -12,9 +12,9 @@
         android:title="@string/title_jobs" />
 
     <item
-        android:id="@+id/navigation_network"
-        android:icon="@drawable/ic_network"
-        android:title="@string/title_network" />
+        android:id="@+id/navigation_contact"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/title_contact" />
 
     <item
         android:id="@+id/navigation_profile"
